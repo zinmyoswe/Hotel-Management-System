@@ -1,0 +1,316 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HotelManagement
+</name>
+</assembly>
+<members>
+<member name="T:HotelManagement.dsHotelManagement.GuestDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.DetailDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.CheckInDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.RoomTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.RoomDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.ReservationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.DrinkandliquidDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.FoodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.ExtraItemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.RentItemDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.CoolDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.DrinkTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.FoodTypeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.OrderFoodDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.OrderDrinkDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.OrderfoodanddrinkDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.orderdetailviewDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.CheckOutDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.GuestRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.DetailRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.CheckInRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.RoomTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.RoomRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.ReservationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.DrinkandliquidRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.FoodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.ExtraItemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.RentItemRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.CoolRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.DrinkTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.FoodTypeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.OrderFoodRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.OrderDrinkRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.OrderfoodanddrinkRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.orderdetailviewRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.CheckOutRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.GuestRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.DetailRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.CheckInRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.RoomTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.RoomRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.ReservationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.DrinkandliquidRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.FoodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.ExtraItemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.RentItemRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.CoolRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.DrinkTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.FoodTypeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.OrderFoodRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.OrderDrinkRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.OrderfoodanddrinkRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.orderdetailviewRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement.CheckOutRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagement">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.GuestTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.DetailTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.CheckInTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.RoomTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.RoomTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.ReservationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.DrinkandliquidTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.FoodTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.ExtraItemTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.RentItemTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.CoolTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.DrinkTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.FoodTypeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.OrderFoodTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.OrderDrinkTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.OrderfoodanddrinkTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.orderdetailviewTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:HotelManagement.dsHotelManagementTableAdapters.CheckOutTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="P:HotelManagement.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:HotelManagement.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:HotelManagement.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5D08AB99-D575-4439-9DAC-3984A8FFF97A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>HotelManagement.My.MyApplication</StartupObject>
+    <RootNamespace>HotelManagement</RootNamespace>
+    <AssemblyName>HotelManagement</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>HotelManagement.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>HotelManagement.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CheckIn.Designer.vb">
+      <DependentUpon>CheckIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CheckIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOut.Designer.vb">
+      <DependentUpon>CheckOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOutSearch.Designer.vb">
+      <DependentUpon>CheckOutSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOutSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cool.Designer.vb">
+      <DependentUpon>Cool.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cool.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crvCheckOut.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crvCheckOut.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crvexternal.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crvexternal.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Drinkandliquid.Designer.vb">
+      <DependentUpon>Drinkandliquid.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Drinkandliquid.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dsHotelManagement.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsHotelManagement.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsHotelManagement.vb">
+      <DependentUpon>dsHotelManagement.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraItem.Designer.vb">
+      <DependentUpon>ExtraItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ExtraItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Food.Designer.vb">
+      <DependentUpon>Food.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Food.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReservation.Designer.vb">
+      <DependentUpon>frmReservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReservation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreservationcheckIn.Designer.vb">
+      <DependentUpon>frmreservationcheckIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmreservationcheckIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guest.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Guest.Designer.vb">
+      <DependentUpon>Guest.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Orderfoodanddrink.Designer.vb">
+      <DependentUpon>Orderfoodanddrink.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Orderfoodanddrink.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RentItem.Designer.vb">
+      <DependentUpon>RentItem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RentItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportViewer.Designer.vb">
+      <DependentUpon>ReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservation.Designer.vb">
+      <DependentUpon>Reservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Room.Designer.vb">
+      <DependentUpon>Room.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Room.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CheckIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CheckIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOut.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CheckOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOutSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>CheckOutSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cool.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Cool.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crvCheckOut.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crvCheckOut.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crvexternal.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crvexternal.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drinkandliquid.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Drinkandliquid.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExtraItem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ExtraItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Food.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Food.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReservation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReservation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmreservationcheckIn.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmreservationcheckIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Guest.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Guest.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Orderfoodanddrink.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Orderfoodanddrink.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RentItem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>RentItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportViewer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReportViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Reservation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Room.resx">
+      <DependentUpon>Room.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="dsHotelManagement.xsc">
+      <DependentUpon>dsHotelManagement.xsd</DependentUpon>
+    </None>
+    <None Include="dsHotelManagement.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsHotelManagement.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="dsHotelManagement.xss">
+      <DependentUpon>dsHotelManagement.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_113332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_1133321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20160207_125409.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20160207_125345.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20160207_175954.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20160207_175903.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20160207_175834.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_113443.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_1134431.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_1133322.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_1133323.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_113240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20160207_182645.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20160207_182622.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20160207_1826221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20160207_175925.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20160207_1826451.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_1133324.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_1133325.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_1133326.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_1133327.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Studio_20151229_1133328.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

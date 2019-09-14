@@ -1,0 +1,118 @@
+CREATE TABLE Guest
+(
+	GuestID varchar(20)NOT NULL PRIMARY KEY,
+	GuestName varchar(50),
+	NRCNo varchar(50),
+	Addres varchar(50),
+	RoomNo varchar(50)
+);
+
+
+CREATE TABLE Manager
+(
+	ManagerID varchar(20)NOT NULL PRIMARY KEY,
+	ManagerName varchar(50),
+	ManagerType varchar(50),
+	TelNo varchar(50),
+	Address varchar(50)
+	
+);
+
+
+CREATE TABLE Stock
+(
+	StockID varchar(20)NOT NULL PRIMARY KEY,
+	StockName varchar(50),
+	StockType varchar(50)
+);
+
+CREATE TABLE Room
+(
+	RoomID varchar(20)NOT NULL PRIMARY KEY,
+	RoomNo varchar(50),
+	RoomType varchar(50)
+);
+
+CREATE TABLE CheckIn
+(
+	CheckInID varchar(20)NOT NULL PRIMARY KEY,
+	CheckInDate varchar(50),
+	GuestName varchar(50),
+	RoomNo varchar(50)
+);
+
+CREATE TABLE CheckOut
+(
+	CheckOutID varchar(20)NOT NULL PRIMARY KEY,
+	CheckOutDate varchar(50),
+	GuestName varchar(50),
+	RoomNo varchar(50),
+	Payment varchar(50)
+);
+
+CREATE TABLE Reservation
+(
+	ReservationID varchar(20)NOT NULL PRIMARY KEY,
+	ReservationDate varchar(50),
+	RoomNo varchar(50),
+	DepositReservation varchar(50),
+	RoomNo varchar(50),
+	GuestName varchar(50)
+);
+
+CREATE TABLE Reservation
+(
+	ReservationID varchar(20)NOT NULL PRIMARY KEY,
+	ReservationDate varchar(50),
+	RoomNo varchar(50),
+	DepositReservation varchar(50),
+	RoomNo varchar(50),
+	GuestName varchar(50)
+);
+
+CREATE TABLE Receptionist
+(
+	ReceptionistID varchar(20)NOT NULL PRIMARY KEY,
+	ReceptionistName varchar(50),
+	NRCNo varchar(50),
+	TelNo varchar(50),
+	Address varchar(50)
+);
+
+
+CREATE TABLE Chef
+(
+	ChefID varchar(20)NOT NULL PRIMARY KEY,
+	ChefName varchar(50),
+	ChefType varchar(50),
+	NRCNo varchar(50),
+	TelNo varchar(50),
+	Address varchar(50)
+);
+
+
+CREATE TABLE HotelAddentant
+(
+	StaffID varchar(20)NOT NULL PRIMARY KEY,
+	StaffName varchar(50)
+	
+);
+
+
+CREATE TABLE OrderFood
+(
+	OrderID varchar(20)NOT NULL PRIMARY KEY,
+	FoodName varchar(50),
+	FoodType varchar(50),
+	GuestID varchar(20)
+);
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+F:\ZINMYOSWE University\LEVEL4&5 Assignments&BIT Coursework\Computing complete\Program\HotelManagement\HotelManagement\bin\Debug\HotelManagement.exe.config
+F:\ZINMYOSWE University\LEVEL4&5 Assignments&BIT Coursework\Computing complete\Program\HotelManagement\HotelManagement\obj\Debug\HotelManagement.exe
+F:\ZINMYOSWE University\LEVEL4&5 Assignments&BIT Coursework\Computing complete\Program\HotelManagement\HotelManagement\obj\Debug\HotelManagement.xml
+F:\ZINMYOSWE University\LEVEL4&5 Assignments&BIT Coursework\Computing complete\Program\HotelManagement\HotelManagement\obj\Debug\HotelManagement.pdb
